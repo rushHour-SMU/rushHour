@@ -6,7 +6,8 @@ from agents.dqn_agent import DQNAgent
 
 # Load config
 with open("config/config.yaml", "r") as file:
-    config = yaml.safe_load(file)시
+
+    config = yaml.safe_load(file)
 
 env = gym.make(config["env_name"])
 agent = DQNAgent(env.observation_space.shape[0], env.action_space.n, config)
