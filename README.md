@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/7d489505-11d2-4fd5-9eb6-bd399227b4eb)
 
 ## 1. 프로젝트 클론
 
@@ -32,6 +33,7 @@ python3 -m venv venv
 
 `requirements.txt` 파일에 정의된 의존성 패키지들을 설치하려면 아래 명령어를 실행합니다:
 
-```bash
-pip install -r requirements.txt
+```bashimage-1
+pip install -![Uploading image.png…]()
+r requirements.txt
 ```
